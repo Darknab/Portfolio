@@ -1,0 +1,41 @@
+:root {
+  /* Fonts */
+  --font-family-primary: 'Montserrat', sans-serif;
+
+  /* Font sizes */
+  --font-size-100: 0.75rem;  
+  --font-size-200: 0.875rem;  
+  --font-size-400: 1rem;      
+  --font-size-500: 1.125rem;
+  --font-size-600: 1.25rem;
+  --font-size-700: 1.5rem;
+  --font-size-800: 2rem; 
+  --font-size-900: 2.5rem;
+
+  /* Text colors */
+  --color-text-light: #f1f5f9;
+  --color-text-dark: #0f172a;
+  --color-text-secondary: #c2410c;
+
+  /* Spacing */
+  --space-100: 0.25rem;
+  --space-200: 0.375rem;
+  --space-300: 0.5rem;
+  --space-400: 0.75rem;
+  --space-500: 1rem;
+  --space-600: 1.5rem;
+  --space-700: 2rem;
+  --space-750:2.5rem;
+  --space-800: 3rem;
+  --space-900: 4rem;
+
+  /* colors */
+  --color-primary: #0f172a;
+  --color-secondary: #f1f5f9;
+  --color-cta: #c2410c;
+
+  /* shadows */
+  --shadow-large:  2px 4px 10px hsl(0 0% 0% / 0.1);
+  --shadow-small:  1px 3px 6px hsl(0 0% 0% / 0.1);
+
+}
