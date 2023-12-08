@@ -15,7 +15,7 @@
   /* Text colors */
   --color-text-light: #f1f5f9;
   --color-text-dark: #0f172a;
-  --color-text-secondary: #c2410c;
+  --color-text-secondary: #facc15;
 
   /* Spacing */
   --space-100: 0.25rem;
@@ -32,7 +32,7 @@
   /* colors */
   --color-primary: #0f172a;
   --color-secondary: #f1f5f9;
-  --color-cta: #c2410c;
+  --color-cta: #facc15;
 
   /* shadows */
   --shadow-large:  2px 4px 10px hsl(0 0% 0% / 0.1);
