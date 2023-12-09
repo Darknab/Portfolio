@@ -50,13 +50,13 @@ h4 {
 }
 
 a {
-  color: var(--color-secondary);
+  /*color: var(--color-secondary);*/
   text-decoration: none;
-  transition: color 200ms;
+  transition: opacity 200ms;
 
   &:hover,
   &:focus,
   &:active {
-    color: var(--color-cta);
+    opacity: 0.6;
   }
 }
