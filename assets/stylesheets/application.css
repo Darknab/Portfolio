@@ -1,5 +1,13 @@
+
+/* Config */
 @import "config/reset.css";
 @import "config/variables.css";
+
+/* Layouts */
 @import "layouts/container.css";
+@import "layouts/header.css";
+
+/* Components */
 @import "components/navbar.css";
-@import "layouts/header.css"
+@import "components/image-container.css";
+@import "components/introduction.css";
