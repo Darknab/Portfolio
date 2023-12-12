@@ -2,17 +2,21 @@
   width: 100%;
   padding-right: var(--space-200);
   padding-left: var(--space-200);
+  padding-top: var(--space-800);
   margin-left: auto;
   margin-right: auto;
 
   @media (min-width: 350px) {
     padding-right: var(--space-400);
     padding-left: var(--space-400);
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(2, 1fr);
   }
 
   @media (min-width: 750px) {
     width: 90%;
-    margin: 0, auto;
+    margin: 0 auto;
   }
+
 }
