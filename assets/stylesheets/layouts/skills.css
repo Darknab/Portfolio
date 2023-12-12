@@ -1,0 +1,22 @@
+#skills {
+  padding: var(--space-800);
+  background-color: var(--color-secondary);
+}
+
+#skills ul.container {
+  gap: var(--space-600);
+}
+
+#skills li {
+  animation: scroll-up 500ms 1;
+}
+
+@keyframes scroll-up {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}

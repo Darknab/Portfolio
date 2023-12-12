@@ -6,8 +6,10 @@
 /* Layouts */
 @import "layouts/container.css";
 @import "layouts/header.css";
+@import "layouts/skills.css";
 
 /* Components */
 @import "components/navbar.css";
 @import "components/image-container.css";
 @import "components/introduction.css";
+@import "components/svg.css";
