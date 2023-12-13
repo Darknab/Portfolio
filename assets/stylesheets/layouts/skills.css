@@ -11,8 +11,6 @@
     flex-wrap: wrap;
     gap: var(--space-600);
     justify-content: center;
-
-    animation: scroll-up 500ms 1;
   }
 
   & h2 {
@@ -26,7 +24,9 @@
   }
 }
 
-
+.scroll-up {
+  animation: scroll-up 500ms 1;
+}
 
 @keyframes scroll-up {
   from {
