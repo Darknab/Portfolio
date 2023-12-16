@@ -24,7 +24,7 @@
   }
 }
 
-.scroll-up {
+.animate {
   animation: scroll-up 500ms 1;
 }
 

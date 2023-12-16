@@ -1,12 +1,12 @@
-svg {
+.skill-svg {
   transition: 200ms ease-in-out;
 }
 
-svg:hover {
+.skill-svg:hover {
   transform: scale(1.3);
 }
 
-svg:not(:hover) {
+.skill-svg:not(:hover) {
   & path {
   fill: var(--color-primary);
   }

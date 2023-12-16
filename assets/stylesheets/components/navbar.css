@@ -5,7 +5,7 @@
   border-radius: 30px;
   margin: 0 auto;
   padding: 1em;
-  box-shadow: var(--shadow-small);
+  box-shadow: var(--shadow-light-small);
 
   & ul {
   display: flex;

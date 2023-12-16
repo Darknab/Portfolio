@@ -35,7 +35,9 @@
   --color-cta: #facc15;
 
   /* shadows */
-  --shadow-large:  2px 4px 10px var(--color-secondary);
-  --shadow-small:  1px 3px 6px var(--color-secondary);
+  --shadow-light-large:  2px 4px 10px var(--color-secondary);
+  --shadow-light-small:  1px 3px 6px var(--color-secondary);
+  --shadow-dark-large: 2px 4px 10px var(--color-primary);
+  --shadow-dark-small: 1px 3px 6px var(--color-primary);
 
 }

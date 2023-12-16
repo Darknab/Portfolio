@@ -9,9 +9,10 @@
   @media (min-width: 350px) {
     padding-right: var(--space-400);
     padding-left: var(--space-400);
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    display: flex;
+    justify-content: center;
+    gap: var(--space-800);
+    flex-wrap: wrap;
   }
 
   @media (min-width: 750px) {
