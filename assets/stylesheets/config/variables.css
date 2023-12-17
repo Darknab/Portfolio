@@ -13,9 +13,9 @@
   --font-size-900: 2.5rem;
 
   /* Text colors */
-  --color-text-light: #f1f5f9;
-  --color-text-dark: #0f172a;
-  --color-text-secondary: #facc15;
+  --color-text-light: #bef264;
+  --color-text-dark: #065f46;
+  --color-text-secondary: #d97706;
 
   /* Spacing */
   --space-100: 0.25rem;
@@ -30,9 +30,9 @@
   --space-900: 4rem;
 
   /* colors */
-  --color-primary: #0f172a;
-  --color-secondary: #f1f5f9;
-  --color-cta: #facc15;
+  --color-primary: #065f46;
+  --color-secondary: #f7fee7;
+  --color-cta: #d97706;
 
   /* shadows */
   --shadow-light-large:  2px 4px 10px var(--color-secondary);
