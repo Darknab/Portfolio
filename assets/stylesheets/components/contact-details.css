@@ -1,0 +1,19 @@
+.contact-details {
+  align-self: center;
+
+  & .email {
+    margin-bottom: var(--space-600);
+  }
+
+  & svg {
+    vertical-align: middle;
+  }
+
+  & .links {
+    margin-left: auto;
+
+    & a {
+      margin: var(--space-200);
+    }
+  }
+}

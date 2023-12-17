@@ -1,0 +1,40 @@
+#contact {
+  & .contact-details {
+    text-align: center;
+  }
+
+  & h2 {
+    text-align: center;
+    margin-top: var(--space-600);
+  }
+  
+  @media (min-width: 750px) {
+    & .container {
+      flex-wrap: nowrap;
+    }
+
+    & .contact-details,
+    & .footer-image-container {
+      text-align: start;
+      max-width: 50%;
+      flex: 50%;
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    & .contact-details {
+      flex: 33%;
+    }
+
+    & .footer-image-container {
+      flex-grow: 66%;
+    }
+  }
+
+}
+
+.credentials {
+  font-size: var(--font-size-200);
+  margin-top: var(--space-600);
+  text-align: center;
+}

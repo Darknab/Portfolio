@@ -8,6 +8,7 @@
 @import "layouts/header.css";
 @import "layouts/skills.css";
 @import "layouts/projects.css";
+@import "layouts/contact.css";
 
 /* Components */
 @import "components/navbar.css";
@@ -15,3 +16,5 @@
 @import "components/introduction.css";
 @import "components/svg.css";
 @import "components/card.css";
+@import "components/footer-image-container.css";
+@import "components/contact-details.css";
