@@ -1,18 +1,28 @@
 .introduction {
   background-color: var(--color-secondary);
   color: var(--color-text-dark);
-  padding: 1em;
-  grid-column: 3 / 9;
-  grid-row: 1 / -1;
-  align-self:center;
+  padding: var(--space-400);
 
-  @media (min-width: 750px) {
-    grid-column: 5 / 9;
+  & h2 {
+    text-align: center;
+    margin-bottom: var(--space-400);
+  }
+
+  @media (min-width: 350px) {
+    
   }
   
-  @media (min-width: 1000px) {
-    grid-row: 2 / -1;
-    align-self: self-end;
+
+  @media (min-width: 750px) {
+   
+   grid-column: 3 / -1;
+   grid-row-end: -1;
+   align-self: last baseline;
+   
+  }
+  
+  @media (min-width: 1200px) {
+    
   }
 
   
