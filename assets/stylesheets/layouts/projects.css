@@ -14,4 +14,34 @@
   & .card-description {
     font-size: var(--font-size-200);
   }
+
+  & .animate {
+    transition: 300ms ease-in-out;
+    transition-behavior: allow-discrete;
+  }
+
+  & .animate.calculator {
+    animation: left-to-right 0.5 1;
+  }
+
+  & .animate.tic-tac-toe {
+    animation: left-to-right 1s 1;
+  }
+
+  & .animate.admin-dashboard {
+    animation: left-to-right 1.5s 1;
+  }
+
+  & .animate.facebook-clone {
+    animation: left-to-right 2s 1;
+  }
+}
+
+@keyframes left-to-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
 }

@@ -14,7 +14,7 @@
   }
 
   & h2 {
-    color: var(--color-text-secondary);
+    color: var(--color-text-dark);
     text-align: center;
   }
 
@@ -22,11 +22,12 @@
     width: 100px;
     aspect-ratio: 1 / 1;
   }
+
+  & .animate {
+    animation: scroll-up 500ms 1;
+  }
 }
 
-.animate {
-  animation: scroll-up 500ms 1;
-}
 
 @keyframes scroll-up {
   from {

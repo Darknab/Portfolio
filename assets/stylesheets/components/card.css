@@ -8,8 +8,7 @@
   align-items: center;
   gap: var(--space-300);
 
-  transition: 200ms ease-in-out;
-  transition-behavior: allow-discrete;
+
 
   & h3 {
     text-align: center;
@@ -55,6 +54,8 @@
     }
   }
 }
+
+
 
 
 
