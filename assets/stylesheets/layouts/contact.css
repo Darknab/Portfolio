@@ -1,11 +1,23 @@
 #contact {
-  & .contact-details {
-    text-align: center;
-  }
 
   & h2 {
+    color: var(--color-text-lime);
     text-align: center;
     margin-top: var(--space-600);
+  }
+
+  & a:hover,
+  & a:focus,
+  & a:active {
+    color: var(--color-text-lime);
+
+    & svg {
+      transform: scale(1.2);
+    }
+
+    & path {
+      fill: var(--color-text-lime);
+    }
   }
   
   @media (min-width: 750px) {
@@ -13,24 +25,17 @@
       flex-wrap: nowrap;
     }
 
-    & .contact-details,
+    & .contact-details {
+      text-align: start;
+      flex: 30%;
+    }
+
     & .footer-image-container {
       text-align: start;
-      max-width: 50%;
-      flex: 50%;
+      
+      flex: 60%;
     }
   }
-  
-  @media (min-width: 1600px) {
-    & .contact-details {
-      flex: 33%;
-    }
-
-    & .footer-image-container {
-      flex-grow: 66%;
-    }
-  }
-
 }
 
 .credentials {
