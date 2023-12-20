@@ -13,7 +13,8 @@
   --font-size-900: 2.5rem;
 
   /* Text colors */
-  --color-text-light: #bef264;
+  --color-text-light: #f7fee7 ;
+  --color-text-lime: #bef264; 
   --color-text-dark: #065f46;
   --color-text-secondary: #6b21a8;
 

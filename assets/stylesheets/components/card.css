@@ -8,7 +8,7 @@
   align-items: center;
   gap: var(--space-300);
 
-
+  position: relative;
 
   & h3 {
     text-align: center;
@@ -27,31 +27,56 @@
     margin: 0 auto;
   }
 
-  & .card-description {
-    opacity: 0;
-    height: 0;
-    transition: 200ms ease-in-out;
+  & .card-description {  
+    transition: 300ms ease-in-out;
   }
 
   & .card-links {
     min-width: fit-content;
-    align-self: flex-end;
     display: flex;
     gap: var(--space-300);
+
+    position: absolute;
+    bottom: 30%;
+    
     & a {
       display: block;
-      width: 25px;
+      width: 50px;
+      opacity: 0;
+      height: 0;
+
+      transition: 200ms ease-in-out;
+      
+      &:hover {
+        transform: scale(1.2);
+        & .card-svg path {
+          fill: var(--color-text-lime)
+        }
+      }
     }
   }
 
   &:hover {
-    transform: scale(1.05);
     box-shadow: var(--shadow-dark-large);
 
-    .card-description {
-      opacity: 1;
-      height: auto;
+    & .card-description {
+      filter: blur(30px);
     }
+
+    & a {
+      opacity: 1;
+      height: 100%;
+      animation: from-bottom 0.5s 1;
+    }
+  }
+}
+
+@keyframes from-bottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
   }
 }
 
