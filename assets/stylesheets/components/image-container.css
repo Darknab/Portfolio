@@ -1,5 +1,5 @@
 .image-container {
-  background-image: url("/assets/images/domenico-loia-hGV2TfOh0ns-unsplash_3_400x267.webp");
+  background-image: url("/assets/images/domenico-loia-hGV2TfOh0ns-unsplash-350.jpg");
   background-size: cover;
   aspect-ratio: 400 / 267 ;
   width: 100%;
@@ -12,14 +12,14 @@
   }
 
 
-  @media (min-width: 750px) {
-  background-image: url("/assets/images/domenico-loia-hGV2TfOh0ns-unsplash_4_1000x667.webp");
+  @media (min-width: 350px) {
+  background-image: url("/assets/images/domenico-loia-hGV2TfOh0ns-unsplash-750.jpg");
   grid-area: 1 / 1 / 3 / 8;
   
   }
 
-  @media (min-width: 1200px) {
-    background-image: url("/assets/images/domenico-loia-hGV2TfOh0ns-unsplash_1_50.webp");
+  @media (min-width: 750px) {
+    background-image: url("/assets/images/domenico-loia-hGV2TfOh0ns-unsplash-1600.jpg");
     grid-area: 1 / 1 / 3 / 7;
   }
 }
