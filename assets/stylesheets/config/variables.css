@@ -1,7 +1,7 @@
 :root {
   /* Fonts */
-  --font-family-primary: 'Montserrat', sans-serif;
-
+  --font-family-primary: system-ui, sans-serif;
+  --font-family-heading: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
   /* Font sizes */
   --font-size-100: 0.75rem;  
   --font-size-200: 0.875rem;  
